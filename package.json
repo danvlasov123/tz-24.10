@@ -12,7 +12,7 @@
     "@headlessui/react": "^1.7.17",
     "@reduxjs/toolkit": "^1.9.7",
     "axios": "^1.5.1",
-    "next": "latest",
+    "next": "13.4",
     "react": "latest",
     "react-dom": "latest",
     "react-redux": "^8.1.3"
