@@ -33,15 +33,15 @@ export default async function RootLayout({
 }) {
   return (
     <html lang='en' className={`${inter.variable} h-full`}>
-      <StoreProvider>
-        <AuthProvider>
-          <body className='h-full bg-white text-gray-900'>
+      <body className='h-full bg-white text-gray-900'>
+        <StoreProvider>
+          <AuthProvider>
             <Suspense>
               <main>{children}</main>
             </Suspense>
-          </body>
-        </AuthProvider>
-      </StoreProvider>
+          </AuthProvider>
+        </StoreProvider>
+      </body>
     </html>
   );
 }
